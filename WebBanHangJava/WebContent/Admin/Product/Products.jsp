@@ -156,6 +156,7 @@
 											<th>Name</th>
 											<th>Amount</th>
 											<th class="text-right">Cost</th>
+											<th>Xóa</th>
 										</thead>
 										<tbody>
 											<c:forEach var="p" items="${ products }">
@@ -163,6 +164,7 @@
 													<td>${ p.product.tenSP }</td>
 													<td>${ p.product.soLuong }</td>
 													<td class="text-right">${ p.product.gia }</td>
+													<td><a href="">Delete</a></td>
 												</tr>
 											</c:forEach>
 										</tbody>
