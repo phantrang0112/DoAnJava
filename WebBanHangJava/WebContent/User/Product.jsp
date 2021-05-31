@@ -12,24 +12,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiệm của Trang</title>
     <!-- Favicons -->
-    <link href="assets/image/img/logoTittle.png" rel="icon">
-    <link href="assets/image/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="User/assets/image/img/logoTittle.png" rel="icon">
+    <link href="User/assets/image/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="User/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="User/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="User/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="User/assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="User/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="User/assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="User/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="User/assets/vendor/aos/aos.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./User/assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -125,7 +125,7 @@
 	                    <div class="col-lg-4 col-md-6 portfolio-item filter-${p.filter }">
 	                        <div class="portfolio-wrap ">
 	                            <figure>
-	                                <img src="assets/image/img/${p.product.hinhSP }" class="img-fluid " alt=" ">
+	                                <img src="User/assets/image/img/${p.product.hinhSP }" class="img-fluid " alt=" ">
 	                                <a href="cart.html"><button data-gall="portfolioGallery "  title="Web 3 " type="button" class="btn link-preview btn btn-success btn-lg  ">Thêm vào giỏ hàng</button></a>
 	                            </figure>
 	
@@ -263,18 +263,18 @@
         </section>
     </main>
     <!-- End Portfolio Section -->
-    <script src="assets/vendor/jquery/jquery.min.js "></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
-    <script src="assets/vendor/jquery.easing/jquery.easing.min.js "></script>
-    <script src="assets/vendor/waypoints/jquery.waypoints.min.js "></script>
-    <script src="assets/vendor/counterup/counterup.min.js "></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
-    <script src="assets/vendor/venobox/venobox.min.js "></script>
-    <script src="assets/vendor/owl.carousel/owl.carousel.min.js "></script>
-    <script src="assets/vendor/aos/aos.js "></script>
+    <script src="User/assets/vendor/jquery/jquery.min.js "></script>
+    <script src="User/assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <script src="User/assets/vendor/jquery.easing/jquery.easing.min.js "></script>
+    <script src="User/assets/vendor/waypoints/jquery.waypoints.min.js "></script>
+    <script src="User/assets/vendor/counterup/counterup.min.js "></script>
+    <script src="User/assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
+    <script src="User/assets/vendor/venobox/venobox.min.js "></script>
+    <script src="User/assets/vendor/owl.carousel/owl.carousel.min.js "></script>
+    <script src="User/assets/vendor/aos/aos.js "></script>
 
     <!-- Template Main JS File -->
-    <script src="assets/js/main.js "></script>
+    <script src="User/assets/js/main.js "></script>
 
 </body>
 
@@ -283,7 +283,7 @@
         <div class="container ">
             <div class="row ">
                 <div class="col-md-4 col-lg-4 footer-about wow fadeInUp ">
-                    <img class="logo-footer " src="assets/footer/assets/img/logo.png " alt="logo-footer " data-at2x="assets/img/logo.png ">
+                    <img class="logo-footer " src="User/assets/footer/assets/img/logo.png " alt="logo-footer " data-at2x="assets/img/logo.png ">
                     <p>
                         We are a young company always looking for new and creative ideas to help you with our products in your everyday work.
                     </p>

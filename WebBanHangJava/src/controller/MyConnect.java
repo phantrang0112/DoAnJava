@@ -14,7 +14,7 @@ public class MyConnect {
 	public MyConnect() {
 		port = "1433";
 		db_name = "WebBanHangJava";
-		db_user = "trang";
+		db_user = "bin";
 		db_pass ="123456";
 
 	}

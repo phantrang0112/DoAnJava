@@ -11,24 +11,24 @@
    
     <title>Tiệm của Trang</title>
     <!-- Favicons -->
-    <link href="assets/image/img/logoTittle.png" rel="icon">
-    <link href="assets/image/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="User/assets/image/img/logoTittle.png" rel="icon">
+    <link href="User/assets/image/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="User/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="User/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="User/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="User/assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="User/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="User/assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="User/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="User/assets/vendor/aos/aos.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./User/assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -96,7 +96,7 @@
 
                 <div class="carousel-inner" role="listbox">
 
-                    <div class="carousel-item active" style="background-image: url(assets/image/img/intro-carousel/1.jpg)">
+                    <div class="carousel-item active" style="background-image: url(User/assets/image/img/intro-carousel/1.jpg)">
                         <div class="carousel-container">
                             <div class="container">
                                 <h2 class="animate__animated animate__fadeInDown">Chào mừng bạn đến với Tiệm Của Trang</h2>
@@ -106,7 +106,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-image: url(assets/image/img/intro-carousel/2.jpg)">
+                    <div class="carousel-item" style="background-image: url(User/assets/image/img/intro-carousel/2.jpg)">
                         <div class="carousel-container">
                             <div class="container">
                                 <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>
@@ -117,7 +117,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-image: url(assets/image/img/intro-carousel/3.jpg)">
+                    <div class="carousel-item" style="background-image: url(User/assets/image/img/intro-carousel/3.jpg)">
                         <div class="carousel-container">
                             <div class="container">
                                 <h2 class="animate__animated animate__fadeInDown">Temporibus autem quibusdam</h2>
@@ -129,7 +129,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-image: url(assets/image/img/intro-carousel/4.jpg)">
+                    <div class="carousel-item" style="background-image: url(User/assets/image/img/intro-carousel/4.jpg)">
                         <div class="carousel-container">
                             <div class="container">
                                 <h2 class="animate__animated animate__fadeInDown">Nam libero tempore</h2>
@@ -140,7 +140,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-image: url(assets/image/img/intro-carousel/5.jpg)">
+                    <div class="carousel-item" style="background-image: url(User/assets/image/img/intro-carousel/5.jpg)">
                         <div class="carousel-container">
                             <div class="container">
                                 <h2 class="animate__animated animate__fadeInDown">Magnam aliquam quaerat</h2>
@@ -176,7 +176,7 @@
         </div>
         <div class="card-deck" style="text-align: center;">
             <div class="card loaiSp">
-                <img class="card-img-top img-fluid" src="./assets/image/img/LoaiSp/1.jpg" style="height: 276px;" alt="Card image cap">
+                <img class="card-img-top img-fluid" src="./User/assets/image/img/LoaiSp/1.jpg" style="height: 276px;" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Kẹo</h5>
 
@@ -186,7 +186,7 @@
                 </div>
             </div>
             <div class="card loaiSp">
-                <img class="card-img-top img-fluid" src="./assets/image/img/LoaiSp/5.jpg" style="height: 276px;" alt="Card image cap">
+                <img class="card-img-top img-fluid" src="./User/assets/image/img/LoaiSp/5.jpg" style="height: 276px;" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Trà trái cây</h5>
 
@@ -197,7 +197,7 @@
             </div>
             <div class="card">
                 <a href="home.html" style="color: black;">
-                    <img class="card-img-top img-fluid" href="home.html" style="height: 276px;" src="./assets/image/img/LoaiSp/Article121-635876995046793593.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" href="home.html" style="height: 276px;" src="./User/assets/image/img/LoaiSp/Article121-635876995046793593.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Mứt</h5>
 
@@ -208,7 +208,7 @@
                 </a>
             </div>
             <div class="card">
-                <img class="card-img-top" style="height: 276px;" src="./assets/image/img/6.jpg" alt="Card image cap">
+                <img class="card-img-top" style="height: 276px;" src="./User/assets/image/img/6.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Bánh ngọt</h5>
 
@@ -233,7 +233,7 @@
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="about-col">
                         <div class="img">
-                            <img src="./assets/image/img/LoaiSp/1.jpg" alt="" class="img-fluid">
+                            <img src="./User/assets/image/img/LoaiSp/1.jpg" alt="" class="img-fluid">
                             <div class="icon"><i class="ion-ios-heart-outline"></i></div>
                         </div>
                         <h2 class="title"><a href="#">Giá cả phải chăng</a></h2>
@@ -246,7 +246,7 @@
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="about-col">
                         <div class="img">
-                            <img src="./assets/image/img/LoaiSp/1.jpg" alt="" class="img-fluid">
+                            <img src="./User/assets/image/img/LoaiSp/1.jpg" alt="" class="img-fluid">
                             <div class="icon"><i class="ion-ios-heart-outline"></i></div>
                         </div>
                         <h2 class="title"><a href="#">Hương vị tuyệt hảo</a></h2>
@@ -260,7 +260,7 @@
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="about-col">
                         <div class="img">
-                            <img src="./assets/image/img/LoaiSp/1.jpg" alt="" class="img-fluid">
+                            <img src="./User/assets/image/img/LoaiSp/1.jpg" alt="" class="img-fluid">
                             <div class="icon"><i class="ion-ios-heart-outline"></i></div>
                         </div>
                         <h2 class="title"><a href="#"> Sản phẩm chất lượng</a></h2>
@@ -299,8 +299,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-tra">
                         <div class="portfolio-wrap ">
                             <figure>
-                                <img src="assets/img/portfolio/app1.jpg " class="img-fluid " alt=" ">
-                                <a href="assets/img/portfolio/app1.jpg " data-lightbox="portfolio " data-title="App 1 " class="link-preview "><i class="ion ion-eye "></i></a>
+                                <img src="User/assets/img/portfolio/app1.jpg " class="img-fluid " alt=" ">
+                                <a href="User/assets/img/portfolio/app1.jpg " data-lightbox="portfolio " data-title="App 1 " class="link-preview "><i class="ion ion-eye "></i></a>
                                 <a href="portfolio-details.html " class="link-details " title="More Details "><i class="ion ion-android-open "></i></a>
                             </figure>
 
@@ -314,8 +314,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web ">
                         <div class="portfolio-wrap ">
                             <figure>
-                                <img src="assets/img/portfolio/web3.jpg " class="img-fluid " alt=" ">
-                                <a href="assets/img/portfolio/web3.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="Web 3 "><i class="ion ion-eye "></i></a>
+                                <img src="User/assets/img/portfolio/web3.jpg " class="img-fluid " alt=" ">
+                                <a href="User/assets/img/portfolio/web3.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="Web 3 "><i class="ion ion-eye "></i></a>
                                 <a href="portfolio-details.html " class="link-details " title="More Details "><i class="ion ion-android-open "></i></a>
                             </figure>
 
@@ -329,8 +329,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-tra">
                         <div class="portfolio-wrap ">
                             <figure>
-                                <img src="assets/img/portfolio/app2.jpg " class="img-fluid " alt=" ">
-                                <a href="assets/img/portfolio/app2.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="App 2 "><i class="ion ion-eye "></i></a>
+                                <img src="User/assets/img/portfolio/app2.jpg " class="img-fluid " alt=" ">
+                                <a href="User/assets/img/portfolio/app2.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="App 2 "><i class="ion ion-eye "></i></a>
                                 <a href="portfolio-details.html " class="link-details " title="More Details "><i class="ion ion-android-open "></i></a>
                             </figure>
 
@@ -344,8 +344,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card ">
                         <div class="portfolio-wrap ">
                             <figure>
-                                <img src="assets/img/portfolio/card2.jpg " class="img-fluid " alt=" ">
-                                <a href="assets/img/portfolio/card2.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="Card 2 "><i class="ion ion-eye "></i></a>
+                                <img src="User/assets/img/portfolio/card2.jpg " class="img-fluid " alt=" ">
+                                <a href="User/assets/img/portfolio/card2.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="Card 2 "><i class="ion ion-eye "></i></a>
                                 <a href="portfolio-details.html " class="link-details " title="More Details "><i class="ion ion-android-open "></i></a>
                             </figure>
 
@@ -359,8 +359,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web ">
                         <div class="portfolio-wrap ">
                             <figure>
-                                <img src="assets/img/portfolio/web2.jpg " class="img-fluid " alt=" ">
-                                <a href="assets/img/portfolio/web2.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="Web 2 "><i class="ion ion-eye "></i></a>
+                                <img src="User/assets/img/portfolio/web2.jpg " class="img-fluid " alt=" ">
+                                <a href="User/assets/img/portfolio/web2.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="Web 2 "><i class="ion ion-eye "></i></a>
                                 <a href="portfolio-details.html " class="link-details " title="More Details "><i class="ion ion-android-open "></i></a>
                             </figure>
 
@@ -374,8 +374,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-tra">
                         <div class="portfolio-wrap ">
                             <figure>
-                                <img src="assets/img/portfolio/app3.jpg " class="img-fluid " alt=" ">
-                                <a href="assets/img/portfolio/app3.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="App 3 "><i class="ion ion-eye "></i></a>
+                                <img src="User/assets/img/portfolio/app3.jpg " class="img-fluid " alt=" ">
+                                <a href="User/assets/img/portfolio/app3.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="App 3 "><i class="ion ion-eye "></i></a>
                                 <a href="portfolio-details.html " class="link-details " title="More Details "><i class="ion ion-android-open "></i></a>
                             </figure>
 
@@ -389,8 +389,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card ">
                         <div class="portfolio-wrap ">
                             <figure>
-                                <img src="assets/img/portfolio/card1.jpg " class="img-fluid " alt=" ">
-                                <a href="assets/img/portfolio/card1.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="Card 1 "><i class="ion ion-eye "></i></a>
+                                <img src="User/assets/img/portfolio/card1.jpg " class="img-fluid " alt=" ">
+                                <a href="User/assets/img/portfolio/card1.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="Card 1 "><i class="ion ion-eye "></i></a>
                                 <a href="portfolio-details.html " class="link-details " title="More Details "><i class="ion ion-android-open "></i></a>
                             </figure>
 
@@ -404,8 +404,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card ">
                         <div class="portfolio-wrap ">
                             <figure>
-                                <img src="assets/img/portfolio/card3.jpg " class="img-fluid " alt=" ">
-                                <a href="assets/img/portfolio/card3.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="Card 3 "><i class="ion ion-eye "></i></a>
+                                <img src="User/assets/img/portfolio/card3.jpg " class="img-fluid " alt=" ">
+                                <a href="User/assets/img/portfolio/card3.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="Card 3 "><i class="ion ion-eye "></i></a>
                                 <a href="portfolio-details.html " class="link-details " title="More Details "><i class="ion ion-android-open "></i></a>
                             </figure>
 
@@ -419,8 +419,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web ">
                         <div class="portfolio-wrap ">
                             <figure>
-                                <img src="assets/img/portfolio/web1.jpg " class="img-fluid " alt=" ">
-                                <a href="assets/img/portfolio/web1.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="Web 1 "><i class="ion ion-eye "></i></a>
+                                <img src="User/assets/img/portfolio/web1.jpg " class="img-fluid " alt=" ">
+                                <a href="User/assets/img/portfolio/web1.jpg " class="link-preview venobox " data-gall="portfolioGallery " title="Web 1 "><i class="ion ion-eye "></i></a>
                                 <a href="portfolio-details.html " class="link-details " title="More Details "><i class="ion ion-android-open "></i></a>
                             </figure>
 
@@ -438,18 +438,18 @@
     </main>
     <!-- End Portfolio Section -->
 
-    <script src="assets/vendor/jquery/jquery.min.js "></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
-    <script src="assets/vendor/jquery.easing/jquery.easing.min.js "></script>
-    <script src="assets/vendor/waypoints/jquery.waypoints.min.js "></script>
-    <script src="assets/vendor/counterup/counterup.min.js "></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
-    <script src="assets/vendor/venobox/venobox.min.js "></script>
-    <script src="assets/vendor/owl.carousel/owl.carousel.min.js "></script>
-    <script src="assets/vendor/aos/aos.js "></script>
+    <script src="User/assets/vendor/jquery/jquery.min.js "></script>
+    <script src="User/assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <script src="User/assets/vendor/jquery.easing/jquery.easing.min.js "></script>
+    <script src="User/assets/vendor/waypoints/jquery.waypoints.min.js "></script>
+    <script src="User/assets/vendor/counterup/counterup.min.js "></script>
+    <script src="User/assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
+    <script src="User/assets/vendor/venobox/venobox.min.js "></script>
+    <script src="User/assets/vendor/owl.carousel/owl.carousel.min.js "></script>
+    <script src="User/assets/vendor/aos/aos.js "></script>
 
     <!-- Template Main JS File -->
-    <script src="assets/js/main.js "></script>
+    <script src="User/assets/js/main.js "></script>
 
 </body>
 <footer>
@@ -457,7 +457,7 @@
         <div class="container ">
             <div class="row ">
                 <div class="col-md-4 col-lg-4 footer-about wow fadeInUp ">
-                    <img class="logo-footer " src="assets/img/logo.png " alt="logo-footer " data-at2x="assets/img/logo.png ">
+                    <img class="logo-footer " src="User/assets/img/logo.png " alt="logo-footer " data-at2x="User/assets/img/logo.png ">
                     <p>
                         We are a young company always looking for new and creative ideas to help you with our products in your everyday work.
                     </p>

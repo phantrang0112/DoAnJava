@@ -13,28 +13,28 @@
     <!-- Favicons -->
    
    
-    <link href="<c:url value="assets/image/img/logoTittle.png"/>"  rel="icon">
-    <link href="<c:url value="assets/image/img/apple-touch-icon.png"/>" rel="apple-touch-icon">
+    <link href="<c:url value="User/assets/image/img/logoTittle.png"/>"  rel="icon">
+    <link href="<c:url value="User/assets/image/img/apple-touch-icon.png"/>" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="<c:url value="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"/>" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="<c:url value="assets/vendor/bootstrap/css/bootstrap.min.css"/>" type="text/css" media="all" rel="stylesheet">
-    <link href="<c:url value="assets/vendor/icofont/icofont.min.css"/>" type="text/css" media="all"  rel="stylesheet">
-    <link href="<c:url value="assets/vendor/font-awesome/css/font-awesome.min.css"/>" type="text/css" media="all"  rel="stylesheet">
-    <link href="<c:url value="assets/vendor/ionicons/css/ionicons.min.css"/>" type="text/css" media="all"  rel="stylesheet">
-    <link href="<c:url value="assets/vendor/animate.css/animate.min.css"/>" type="text/css" media="all"  rel="stylesheet">
-    <link href="<c:url value="assets/vendor/venobox/venobox.css"/>" type="text/css" media="all"  rel="stylesheet">
-    <link href="<c:url value="assets/vendor/owl.carousel/assets/owl.carousel.min.css"/>" type="text/css" media="all" rel="stylesheet">
-    <link href="<c:url value="assets/vendor/aos/aos.css"/>" type="text/css" media="all" rel="stylesheet">
-    <link rel="stylesheet" href="<c:url value=" assets/Account/assets/bootstrap/css/bootstrap.min.css"/>"media="all"  type="text/css">
-    <link rel="stylesheet" href="<c:url value="assets/Account/assets/font-awesome/css/font-awesome.min.css"/>"media="all"  type="text/css">
-    <link rel="stylesheet" href="<c:url value="assets/Account/assets/css/animate.css"/>"media="all"  type="text/css">
-    <link rel="stylesheet" href="<c:url value="assets/Account/assets/css/style.css"/>" media="all" type="text/css">
+    <link href="<c:url value="User/assets/vendor/bootstrap/css/bootstrap.min.css"/>" type="text/css" media="all" rel="stylesheet">
+    <link href="<c:url value="User/assets/vendor/icofont/icofont.min.css"/>" type="text/css" media="all"  rel="stylesheet">
+    <link href="<c:url value="User/assets/vendor/font-awesome/css/font-awesome.min.css"/>" type="text/css" media="all"  rel="stylesheet">
+    <link href="<c:url value="User/assets/vendor/ionicons/css/ionicons.min.css"/>" type="text/css" media="all"  rel="stylesheet">
+    <link href="<c:url value="User/assets/vendor/animate.css/animate.min.css"/>" type="text/css" media="all"  rel="stylesheet">
+    <link href="<c:url value="User/assets/vendor/venobox/venobox.css"/>" type="text/css" media="all"  rel="stylesheet">
+    <link href="<c:url value="User/assets/vendor/owl.carousel/assets/owl.carousel.min.css"/>" type="text/css" media="all" rel="stylesheet">
+    <link href="<c:url value="User/assets/vendor/aos/aos.css"/>" type="text/css" media="all" rel="stylesheet">
+    <link rel="stylesheet" href="<c:url value="User/assets/Account/assets/bootstrap/css/bootstrap.min.css"/>"media="all"  type="text/css">
+    <link rel="stylesheet" href="<c:url value="User/assets/Account/assets/font-awesome/css/font-awesome.min.css"/>"media="all"  type="text/css">
+    <link rel="stylesheet" href="<c:url value="User/assets/Account/assets/css/animate.css"/>"media="all"  type="text/css">
+    <link rel="stylesheet" href="<c:url value="User/assets/Account/assets/css/style.css"/>" media="all" type="text/css">
 
     <!-- Template Main CSS File -->
-    <link href="<c:url value="./assets/css/style.css"/>" type="text/css" media="all" rel="stylesheet">
+    <link href="<c:url value="./User/assets/css/style.css"/>" type="text/css" media="all" rel="stylesheet">
 </head>
 
 <body>
@@ -194,24 +194,24 @@
     </div>
 
     <!-- Javascript -->
-    <script src="<c:url value="assets/Account/assets/js/jquery-1.11.1.min.js"/> type="text/javascript"></script>
-    <script src=" <c:url value="assets/Account/assets/bootstrap/js/bootstrap.min.js"/> type="text/javascript"></script>
-    <script src=" <c:url value="assets/Account/assets/js/jquery.backstretch.min.js"/> type="text/javascript"></script>
-    <script src=" <c:url value="assets/Account/assets/js/wow.min.js"/> type="text/javascript"></script>
-    <script src="<c:url value=" assets/Account/assets/js/scripts.js"/> type="text/javascript"></script>
+    <script src="<c:url value="User/assets/Account/assets/js/jquery-1.11.1.min.js"/> type="text/javascript"></script>
+    <script src=" <c:url value="User/assets/Account/assets/bootstrap/js/bootstrap.min.js"/> type="text/javascript"></script>
+    <script src=" <c:url value="User/assets/Account/assets/js/jquery.backstretch.min.js"/> type="text/javascript"></script>
+    <script src=" <c:url value="User/assets/Account/assets/js/wow.min.js"/> type="text/javascript"></script>
+    <script src="<c:url value="User/assets/Account/assets/js/scripts.js"/> type="text/javascript"></script>
 
-    <script src="<c:url value="assets/vendor/jquery/jquery.min.js "/> type="text/javascript"></script>
-    <script src="<c:url value="assets/vendor/bootstrap/js/bootstrap.bundle.min.js "/> type="text/javascript"></script>
-    <script src="<c:url value="assets/vendor/jquery.easing/jquery.easing.min.js "/> type="text/javascript"></script>
-    <script src="<c:url value="assets/vendor/waypoints/jquery.waypoints.min.js "/> type="text/javascript"></script>
-    <script src="<c:url value="assets/vendor/counterup/counterup.min.js "/> type="text/javascript"></script>
-    <script src="<c:url value="assets/vendor/isotope-layout/isotope.pkgd.min.js "/> type="text/javascript"></script>
-    <script src="<c:url value="assets/vendor/venobox/venobox.min.js "/> type="text/javascript"></script>
-    <script src="<c:url value="assets/vendor/owl.carousel/owl.carousel.min.js "/> type="text/javascript"></script>
-    <script src="<c:url value="assets/vendor/aos/aos.js "/> type="text/javascript"></script>
+    <script src="<c:url value="User/assets/vendor/jquery/jquery.min.js "/> type="text/javascript"></script>
+    <script src="<c:url value="User/assets/vendor/bootstrap/js/bootstrap.bundle.min.js "/> type="text/javascript"></script>
+    <script src="<c:url value="User/assets/vendor/jquery.easing/jquery.easing.min.js "/> type="text/javascript"></script>
+    <script src="<c:url value="User/assets/vendor/waypoints/jquery.waypoints.min.js "/> type="text/javascript"></script>
+    <script src="<c:url value="User/assets/vendor/counterup/counterup.min.js "/> type="text/javascript"></script>
+    <script src="<c:url value="User/assets/vendor/isotope-layout/isotope.pkgd.min.js "/> type="text/javascript"></script>
+    <script src="<c:url value="User/assets/vendor/venobox/venobox.min.js "/> type="text/javascript"></script>
+    <script src="<c:url value="User/assets/vendor/owl.carousel/owl.carousel.min.js "/> type="text/javascript"></script>
+    <script src="<c:url value="User/assets/vendor/aos/aos.js "/> type="text/javascript"></script>
 
     <!-- Template Main JS File -->
-    <script src="<c:url value="assets/js/main.js "/> type="text/javascript"></script>
+    <script src="<c:url value="User/assets/js/main.js "/> type="text/javascript"></script>
 
 </body>
 
@@ -220,7 +220,7 @@
         <div class="container ">
             <div class="row ">
                 <div class="col-md-4 col-lg-4 footer-about wow fadeInUp ">
-                    <img class="logo-footer " src="assets/footer/assets/img/logo.png " alt="logo-footer " data-at2x="assets/img/logo.png ">
+                    <img class="logo-footer " src="User/assets/footer/assets/img/logo.png " alt="logo-footer " data-at2x="User/assets/img/logo.png ">
                     <p>
                         We are a young company always looking for new and creative ideas to help you with our products in your everyday work.
                     </p>

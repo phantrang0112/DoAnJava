@@ -12,7 +12,7 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="User/css/style.css">
 </head>
 <!--  <body>
 	<p>hi trang</p>
@@ -33,7 +33,7 @@
 		 <br> <input type="submit" value="login">
 	</form>
 </body>-->
-<body class="img js-fullheight" style="background-image: url(images/bg.jpg);">
+<body class="img js-fullheight" style="background-image: url(User/images/bg.jpg);">
 	<section class="ftco-section">
 		<div class="container">
 			
@@ -76,10 +76,10 @@
 		</div>
 	</section>
 
-	<script src="js/jquery.min.js"></script>
-  <script src="js/popper.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
+	<script src="User/js/jquery.min.js"></script>
+  <script src="User/js/popper.js"></script>
+  <script src="User/js/bootstrap.min.js"></script>
+  <script src="User/js/main.js"></script>
 
 	</body>
 
