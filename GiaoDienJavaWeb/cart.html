@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header id="header" class=" ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-11 d-flex align-items-center">
+                    <h1 class="logo mr-auto">
+                        <!-- <img src="assets\image\img\Logo.png" style="height: 100px; width: 300px;" class="img-fluid"> -->
+                        <a href="home.html">TrangNhỏ</a>
+                    </h1>
+                    <!-- Uncomment below if you prefer to use an image logo -->
+
+
+                    <nav class="nav-menu d-none d-lg-block" style="font-size: large;">
+                        <ul>
+                            <li class="active"><a href="home.html">Trang chủ</a></li>
+                            <li><a href="home.html #about">Giới thiệu</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li class="drop-down"><a href="product.html">Sản phẩm</a>
+                                <ul>
+                                    <li><a href="a.html">Drop Down 1</a></li>
+                                    <li><a href="#">Drop Down 3</a></li>
+                                    <li><a href="#">Drop Down 4</a></li>
+                                    <li><a href="#">Drop Down 5</a></li>
+
+
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">liên hệ</a></li>
+                            <li style="padding:0px ;  margin-left: 70px;" class="icon icon_account drop-down">
+
+                                <a href="">
+                                    <i class="ion-ios-people-outline" style="font-size: 30px;"></i>
+                                </a>
+                                <ul>
+                                    <li><a href="account.html">Chi tiết</a></li>
+                                    <li><a href="#">Đăng Xuất</a></li>
+                                </ul>
+                            </li>
+                            <li style="padding:0px 15px; " class=" icon icon_cart">
+                                <a>
+                                    <i class="ion-ios-cart-outline" style="font-size: 30px;"></i>
+                                </a>
+
+                            </li>
+
+                        </ul>
+                    </nav>
+                    <!-- .nav-menu -->
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <div class="container ">
+        <div class="col-12 row" style="margin: 20px;">
+            <div class="col-3">
+                <a href="home.html"> Trang chủ</a>
+                <span style="width: 3px;  border: 1px solid rgb(146, 236, 169); margin-right: 5px;"></span>
+                <a href="product.html">Sản phẩm</a>
+            </div>
+        </div>
+        <table id="cart" class="table table-hover table-condensed">
+            <thead>
+                <tr>
+
+                    <th style="width:50%">Tên sản phẩm</th>
+                    <th style="width:10%">Giá</th>
+                    <th style="width:8%">Số lượng</th>
+                    <th style="width:22%" class="text-center">Thành tiền</th>
+                    <th style="width:10%"> </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-th="Product">
+                        <div class="row">
+                            <div class="col-sm-2 hidden-xs"><img src="http://hocwebgiare.com/thiet_ke_web_chuan_demo/shopping_cart/images/090.jpg" alt="Sản phẩm 1" class="img-responsive" width="100">
+                            </div>
+                            <div class="col-sm-10">
+                                <h4 class="nomargin">Sản phẩm 1</h4>
+                                <p>Mô tả của sản phẩm 1</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td data-th="Price">200.000 đ</td>
+                    <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+                    </td>
+                    <td data-th="Subtotal" class="text-center">200.000 đ</td>
+                    <td class="actions" data-th="">
+                        <button class="btn btn-info btn-sm"><i class="fa fa-edit"></i></button>
+                        <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td data-th="Product">
+                        <div class="row">
+                            <div class="col-sm-2 hidden-xs"><img src="http://hocwebgiare.com/thiet_ke_web_chuan_demo/shopping_cart/images/174.jpg" alt="Sản phẩm 1" class="img-responsive" width="100">
+                            </div>
+                            <div class="col-sm-10">
+                                <h4 class="nomargin">Sản phẩm 2</h4>
+                                <p>Mô tả của sản phẩm 2</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td data-th="Price">300.000 đ</td>
+                    <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+                    </td>
+                    <td data-th="Subtotal" class="text-center">300.000 đ</td>
+                    <td class="actions" data-th="">
+                        <button class="btn btn-info btn-sm"><i class="fa fa-edit"></i>
+    </button>
+                        <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i>
+    </button>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="visible-xs">
+                    <td class="text-center"><strong>Tổng 200.000 đ</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="product.html" class="btn btn-warning"><i class="fa fa-angle-left"></i> Tiếp tục mua hàng</a>
+                    </td>
+                    <td colspan="2" class="hidden-xs"> </td>
+                    <td class="hidden-xs text-center"><strong>Tổng tiền 500.000 đ</strong>
+                    </td>
+                    <td><a href="http://hocwebgiare.com/" class="btn btn-success btn-block">Thanh toán <i class="fa fa-angle-right"></i></a>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</body>
+
+
+</html>
