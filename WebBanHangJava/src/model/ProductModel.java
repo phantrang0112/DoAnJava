@@ -6,7 +6,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+
+
 import controller.MyConnect;
+import entities.Item;
 import entities.Product;
 
 
@@ -58,17 +61,43 @@ public class ProductModel {
 		return list;
 
 	}
-	public Product getProductLoai(String tenLoai) {
+	public ArrayList<Item> getlistFilter() {
+		ArrayList<Item> list = new ArrayList<Item>();
+		Connection cnConnection = new MyConnect().getcn();
+		if (cnConnection == null) {
+			return null;
+		}
+		try {
+			String sqlString = "select SanPham.*,LoaiSanPham.filter from SanPham,LoaiSanPham where SanPham.idLoai=LoaiSanPham.idLoai";
+			PreparedStatement pStatement = cnConnection.prepareStatement(sqlString);
+			ResultSet rSet = pStatement.executeQuery();
+			while (rSet.next()) {
+				Product temP = new Product(rSet.getString(1), rSet.getString(2), rSet.getInt(3), rSet.getInt(4),rSet.getDate(5),rSet.getString(6),rSet.getString(7),rSet.getString(8));
+				Item item= new Item(temP,rSet.getString(9));
+				list.add(item);
+				System.out.println(item.getProduct().getHinhSP()+item.getProduct().getIdSP()+item.getFilter());
+
+			}
+			pStatement.close();
+			cnConnection.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			// TODO: handle exception
+		}
+		return list;
+
+	}
+	public Product getProductLoai(String idLoai) {
 		Connection cnConnection = new MyConnect().getcn();
 		Product pro = null;
 		if (cnConnection == null) {
 			return null;
 		}
 		try {
-			String sqlString = "Select SanPham.* from SanPham,LoaiSanPham where SanPham.idLoai=LoaiSanPham.idLoai&& LoaiSanPham.tenLoai=?";
+			String sqlString = "Select SanPham.* from SanPham,LoaiSanPham where SanPham.idLoai=LoaiSanPham.idLoai&& LoaiSanPham.idLoai=?";
 			PreparedStatement pStatement = cnConnection.prepareStatement(sqlString);
 			System.out.println("hihi");
-			pStatement.setString(1, tenLoai);
+			pStatement.setString(1, idLoai);
 			ResultSet rSet = pStatement.executeQuery();
 			if (rSet.next()) {
 			 pro = new Product(rSet.getString(1), rSet.getString(2), rSet.getInt(3), rSet.getInt(4),rSet.getDate(5),rSet.getString(6),rSet.getString(7));
@@ -84,6 +113,31 @@ public class ProductModel {
 //		Product pro= new Product(masp,"trang",10,"hi");
 		return pro;
 
+	}
+	public String getFiLter(String idLoai) {
+		Connection cnConnection = new MyConnect().getcn();
+		String filter="";
+		if (cnConnection == null) {
+			return null;
+		}
+		try {
+			String sqlString = "Select filter from SanPham,LoaiSanPham where SanPham.idLoai=LoaiSanPham.idLoai&& LoaiSanPham.idLoai=?";
+			PreparedStatement pStatement = cnConnection.prepareStatement(sqlString);
+			System.out.println("hihi");
+			pStatement.setString(1, idLoai);
+			ResultSet rSet = pStatement.executeQuery();
+			
+			 filter= rSet.getString(1);
+
+		
+			pStatement.close();
+			cnConnection.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			// TODO: handle exception
+		}
+//		Product pro= new Product(masp,"trang",10,"hi");
+		return filter;
 	}
 	public Product getProductloaiIdSP(String idSP, String tenLoai) {
 		Connection cnConnection = new MyConnect().getcn();

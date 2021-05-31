@@ -1,3 +1,5 @@
+
+<%@page import="model.ProductTypeModel"%>
 <%@page import="model.ProductModel"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>    
  <%@page language="java" contentType="text/html; charset=UTF-8"  pageEncoding="UTF-8" %>
@@ -104,33 +106,36 @@
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
                     <div class=" col-12 ">
                         <ul id="portfolio-flters">
+                         	
                             <li data-filter="* " class="filter-active ">All</li>
-                            <li data-filter=".filter-tra">Trà</li>
-                            <li data-filter=".filter-mut ">Mứt</li>
+                            <% ProductTypeModel getloai= new ProductTypeModel();%>
+							<c:forEach var="a" items="<%=getloai.getlist()%>">
+                            	<li data-filter=".filter-${a.filter }">${a.tenLoai}</li>
+                            </c:forEach>
+                         <!-- <li data-filter=".filter-mut ">Mứt</li>
                             <li data-filter=".filter-banh">Bánh</li>
-                            <li data-filter=".filter-banh">Kẹo</li>
+                            <li data-filter=".filter-keo">Kẹo</li>  -->  
                         </ul>
                     </div>
                 </div>
 
                 <div class="row portfolio-container " data-aos="fade-up " data-aos-delay="200 ">
-                	<% ProductModel promodel= new ProductModel(); %>
-					<c:forEach var="p" items="<%=promodel.getlist()%>">
-					<%String a="";
-					%>
-	                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                	<% ProductModel promodel= new ProductModel();%>
+					<c:forEach var="p" items="<%=promodel.getlistFilter()%>">
+	                    <div class="col-lg-4 col-md-6 portfolio-item filter-${p.filter }">
 	                        <div class="portfolio-wrap ">
 	                            <figure>
-	                                <img src="assets/image/img/${p.hinhSP }" class="img-fluid " alt=" ">
+	                                <img src="assets/image/img/${p.product.hinhSP }" class="img-fluid " alt=" ">
 	                                <a href="cart.html"><button data-gall="portfolioGallery "  title="Web 3 " type="button" class="btn link-preview btn btn-success btn-lg  ">Thêm vào giỏ hàng</button></a>
 	                            </figure>
 	
 	                            <div class="portfolio-info ">
-	                                <h4><a href="portfolio-details.html ">${p.tenSP}</a></h4>
-	                                <p style="color:rgb(3, 180, 97);">${p.gia}</p>
+	                                <h4><a href="portfolio-details.html ">${p.product.tenSP}</a></h4>
+	                                <p style="color:rgb(3, 180, 97);">${p.product.gia}</p>
 	                            </div>
 	                        </div>
 	                    </div>
+	                  
 					</c:forEach>
  <!--                  <div class="col-lg-4 col-md-6 portfolio-item filter-web ">
                         <div class="portfolio-wrap ">
